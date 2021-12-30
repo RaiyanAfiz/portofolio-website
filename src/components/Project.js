@@ -2,14 +2,12 @@ const Project = () => {
     return (
         <div>
             <h2>My Projects</h2>
-            <p>
-                Title
-                Picture
-                Description
-                Skills Used
-                Link to GitHub
-            </p>
 
+            <p>Title</p>
+            <p>Picture</p>
+            <p>Description</p>
+            <p>Skills Used</p>
+            <p>Link to GitHub</p>
         </div>
     )
 }
