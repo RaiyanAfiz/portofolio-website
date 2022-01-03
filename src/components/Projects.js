@@ -1,8 +1,14 @@
-const Projects = () => {
+import Project from "./Project"
+
+const Projects = ({projs}) => {
+
+
     return (
-        <div>
-            
-        </div>
+        <>
+            {projs.map((proj) => (
+                <Project key={proj.id} proj={proj}/>
+            ))}
+        </>
     )
 }
 
