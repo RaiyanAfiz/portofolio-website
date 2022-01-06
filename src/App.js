@@ -4,6 +4,7 @@ import Opening from './components/Opening';
 import Projects from './components/Projects';
 
 //Import Media
+//1920 by 888
 import pic1 from './media/GitProfile1.jpg';
 import pic2 from './media/GitProfile2.jpg';
 import pic3 from './media/GitProfile3.jpg';
