@@ -5,9 +5,55 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to bottom right,rgba(121, 43, 223, 0.424), rgba(0, 119, 255, 0.609),rgba(38, 179, 143, 0.774));
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#intro-name {
+  text-align: center;
+  font-style: italic;
+  font-size: 550%;
+}
+
+#intro-links {
+  text-align: center;
+  font-style: italic;
+  font-size: 200%;
+}
+
+#project-styles {
+  width: 40%;
+  margin: auto;
+  border: 2px solid rgb(212, 19, 230);
+  border-radius: 8px;
+  padding: 5px;
+}
+
+#project-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#project-description {
+  text-align: center;
+  padding:5px;
+  font-size: 150%;
+}
+
+#project-skills {
+  display: table;
+  margin: auto;
+  padding:5px;
+  font-size:20px;
+  background-color:rgb(26, 12, 151);
+  color:#ffffff;
+}
+
+#project-links {
+  text-align: center;
 }

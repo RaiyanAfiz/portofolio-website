@@ -1,7 +1,7 @@
 import './App.css';
 import {useState} from 'react'
-import Opening from './components/Opening';
-import Projects from './components/Projects';
+import Opening from './components/Opening'
+import Projects from './components/Projects'
 
 //Import Media
 //1920 by 888
@@ -38,11 +38,11 @@ const App = () => {
         Link: "Link to GitHub"
     }
   ])
-
   return (
     <div>
       <Opening/>
       <Projects projs={projs}/>
+
     </div>
   )
 }
