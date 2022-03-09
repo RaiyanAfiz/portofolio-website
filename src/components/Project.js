@@ -6,7 +6,7 @@ const Project = ({proj}) => {
                 <img src={proj.Picture} alt="My Git Profile" id="project-picture" width="480" height="222"/>
                 <p id="project-description">{proj.Description}</p>
                 <p id="project-skills">{proj.Skills}</p>
-                <p id="project-links">{proj.Link}</p>
+                <p id="project-links"><a href={proj.Link}>GitHub Link</a></p>
             </div>
             <br/>
         </div>
