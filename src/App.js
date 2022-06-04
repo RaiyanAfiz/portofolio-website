@@ -16,7 +16,7 @@ const App = () => {
   const [projs] = useState([
     {
         id: 1,
-        Title: "Portofolio Website",
+        Title: "Portfolio Website",
         Picture: pic1,
         Description: "The current website you are on. Follow the GitHub link to see the source code.",
         Skills: "React.js, JavaScript, CSS, HTML",

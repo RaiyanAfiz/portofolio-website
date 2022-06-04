@@ -12,7 +12,7 @@ const Projects = ({projs}) => {
     )
 }
 
-
+/*
 export default Projects
 
 
@@ -32,4 +32,4 @@ const Project = ({proj}) => {
     )
 }
 
-export default Project
+export default Project*/

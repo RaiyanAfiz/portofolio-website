@@ -1,4 +1,4 @@
-//Brief discription of who I am 
+//Brief description of who I am 
 
 
 const Opening = () => {
