@@ -1,7 +1,7 @@
 //Brief description of who I am 
 
 
-const Opening = () => {
+const Hero = () => {
     return (
         <div>
             <h1 id="intro-name">Raiyan Afiz</h1>
@@ -15,4 +15,4 @@ const Opening = () => {
     )
 }
 
-export default Opening
+export default Hero
