@@ -3,7 +3,7 @@
 const Contact = () => {
     return (
         <div>
-            <h1>Contact</h1>
+            <h1><a href="mailto:contact@raiyanafiz.com">Contact Me!</a><a> at contact@raiyanafiz.com</a></h1>
         </div>
     )
 }
