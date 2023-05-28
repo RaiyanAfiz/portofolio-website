@@ -33,6 +33,12 @@ code {
   padding: 5px;
 }
 
+#project-title {
+  text-align: center;
+  padding:5px;
+  font-size: 200%;
+}
+
 #project-picture {
   display: block;
   margin-left: auto;
@@ -46,14 +52,34 @@ code {
 }
 
 #project-skills {
-  display: table;
+  display: block;
   margin: auto;
   padding:5px;
   font-size:20px;
-  background-color:rgb(26, 12, 151);
+  background-image: linear-gradient(to top ,rgba(121, 43, 223, 0.424), rgba(0, 119, 255, 0.609),rgba(38, 179, 143, 0.774));
+  text-align: center;
   color:#ffffff;
 }
 
 #project-links {
   text-align: center;
+  padding:5px;
+  font-size: 150%;
+}
+
+#about-title {
+  text-align: center;
+  padding:5px;
+  font-size: 250%;
+}
+
+#about-body {
+  text-align: center;
+  padding:5px;
+}
+
+#contact-style {
+  text-align: center;
+  padding:5px;
+  font-size: 250%;
 }
