@@ -4,16 +4,20 @@ const Projects = () => {
     return (
         <div>
             {myProjects.reverse().map((project) => (
-                    <div className="project">
+                <div className="project">
                     <br/>
                     <div id="project-styles">
-                        <h1 id="project-title">{project.title}</h1>
-                        {project.skills.map((tag) => {
-                                return <span id="project-skills">{tag}</span>;
-                        })}
+                        <h1 id="project-title"><a href={project.link}>{project.title}</a></h1>
+                        
+                        <img id="project-picture" src={project.picture} alt={project.pictureAlt}></img>
+                        <br/>
+                        
+                        <span id="project-skills">
+                            {project.skills.map((tag) => {
+                                    return <div id="skills-2">{tag}&nbsp;&nbsp;&nbsp;</div>;
+                            })}
+                        </span>
                         <p id="project-description">{project.description}</p>
-
-                        <p id="project-links"><a href={project.link}>GitHub Link</a></p>
                     </div>
                     <br/>
                 </div>
