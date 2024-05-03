@@ -4,8 +4,8 @@ export const myProjects = [
       id: 0,
       title: "Java Tic-Tac-Toe",
       picture: "/pictures/GitProfile1.jpg",
-      pictureAlt: "A picture of the tic-tac-toe game",
-      description: "A cli, java based tic-tac-toe game. This has a very rudimentary intelligence bases on game state",
+      pictureAlt: "A picture of the game in action.",
+      description: "A CLI Java based tic-tac-toe game. The opponent AI makes decisions based on game state.",
       skills: ["Java"],
       link: "https://github.com/RaiyanAfiz/JavaTicTacToe"
     },
@@ -15,7 +15,7 @@ export const myProjects = [
         title: "Bookstore Website",
         picture: "pictures/GitProfile1.jpg",
         pictureAlt: "A picture of the website",
-        description: "A very simple website that uses HTML and CSS for the front end, and PHP for the backend. This is styled as a very simple bookstore and reading platform.",
+        description: "A very simple website that uses HTML and CSS for the front end, and PHP for the backend. This mimics very simple bookstore and reading platform. Uses copyright free books.",
         skills: ["PHP", "HTML", "CSS"],
         link: "https://github.com/RaiyanAfiz/Website"
     },
@@ -25,8 +25,8 @@ export const myProjects = [
         title: "City of Windsor - Open Data",
         picture: "pictures/GitProfile1.jpg",
         pictureAlt: "A picture of the website",
-        description: "A data management tool that allow the user to quickly navigate and find important information.",
-        skills: ["HTML", "CSS"],
+        description: "A website that takes data from the city of Windsor, which are usually in CSV or Excel formats, and displays the information on the website. The data in the website is in a JSON format.",
+        skills: ["HTML", "CSS", "JSON"],
         link: "https://github.com/sell50/City-of-Windsor-Open-Data"
     },
 
@@ -34,8 +34,8 @@ export const myProjects = [
         id: 3,
         title: "CTF - Four Player Co-Op",
         picture: "pictures/GitProfile1.jpg",
-        pictureAlt: "A of the game in action",
-        description: "A four player capture the flag game, with a high-fantasy theme.",
+        pictureAlt: "A picture of the game in action",
+        description: "A Unity3D game featuring four player capture the flag game mode.",
         skills: ["Unity", "C#"],
         link: "https://github.com/sell50/GameDesignCourse"
     },
@@ -44,8 +44,8 @@ export const myProjects = [
         id: 4,
         title: "Mobile Application project",
         picture: "pictures/GitProfile1.jpg",
-        pictureAlt: "A picture of the mobile application",
-        description: "A four player capture the flag game, with a high-fantasy theme.",
+        pictureAlt: "A picture of the app in action.",
+        description: "An android app focusing on mental health. It uses RoomDB to track journal entries.",
         skills: ["Android Studio", "Java", "SQLite", "RoomDB"],
         link: "https://github.com/RaiyanAfiz/Mobile-Application-Development-Project"
     }

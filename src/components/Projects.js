@@ -14,9 +14,10 @@ const Projects = () => {
                         
                         <span id="project-skills">
                             {project.skills.map((tag) => {
-                                    return <div id="skills-2">{tag}&nbsp;&nbsp;&nbsp;</div>;
+                                    return <div id="skills-2">{tag}</div>;
                             })}
                         </span>
+                        
                         <p id="project-description">{project.description}</p>
                     </div>
                     <br/>
