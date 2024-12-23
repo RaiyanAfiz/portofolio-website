@@ -1,7 +1,6 @@
-import "./App.css";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Hero from "./components/Hero";
+import Hero from "./components/Hero/Hero";
 import Projects from "./components/Projects";
 
 const App = () => {
@@ -10,7 +9,7 @@ const App = () => {
       <Hero />
       <About />
       <Projects />
-      {/* <Contact/> */}
+      <Contact />
     </div>
   );
 };

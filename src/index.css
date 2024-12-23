@@ -18,17 +18,17 @@ code {
     monospace;
 }
 
-#intro-name {
+/* #intro-name {
   text-align: center;
   font-style: italic;
   font-size: 550%;
-}
+} */
 
-#intro-links {
+/* #intro-links {
   text-align: center;
   font-style: italic;
   font-size: 200%;
-}
+} */
 
 #project-styles {
   width: 60%;
