@@ -1,5 +1,7 @@
 .hero {
   display: flex;
+  padding: 50px;
+  flex-direction: column;
 }
 
 #name {
@@ -8,9 +10,17 @@
   animation-iteration-count: 1;
 }
 
+#name > p {
+  font-size: 140%;
+  margin-left: 2%;
+  width: 45%;
+}
+
 #links {
   display: flex;
-  justify-content: flex-end;
+  height: auto;
+  width: 300px;
+  justify-content: space-around;
 }
 
 #hand-wave {
