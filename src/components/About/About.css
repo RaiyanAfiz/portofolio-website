@@ -1,6 +1,7 @@
 .hero {
   display: flex;
-  justify-content: space-around;
+  padding: 50px;
+  flex-direction: column;
 }
 
 #name {
@@ -12,8 +13,17 @@
   justify-self: start;
 }
 
+#name > p {
+  font-size: 140%;
+  margin-left: 2%;
+  width: 45%;
+}
+
 #links {
-  font-size: 30px;
+  display: flex;
+  height: auto;
+  width: 300px;
+  justify-content: space-around;
 }
 
 #hand-wave {
