@@ -1,10 +1,11 @@
 import { myProjects } from "../../assets/ProjectData";
+import "./Projects.css";
 
 const Projects = () => {
   return (
     <div>
       {myProjects.reverse().map((project) => (
-        <div className="project">
+        <div className="project" key={project.id}>
           <br />
           <div id="project-styles">
             <h1 id="project-title">
@@ -20,7 +21,11 @@ const Projects = () => {
 
             <span id="project-skills">
               {project.skills.map((tag) => {
-                return <div id="skills-2">{tag}</div>;
+                return (
+                  <div id="skills-2" key={tag}>
+                    {tag}
+                  </div>
+                );
               })}
             </span>
 
