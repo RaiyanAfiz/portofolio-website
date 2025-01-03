@@ -1,16 +1,19 @@
 .hero {
   display: flex;
+  justify-content: space-around;
 }
 
 #name {
   animation-name: fade-in-animate;
   animation-duration: 4s;
   animation-iteration-count: 1;
+  font-size: 70px;
+  line-height: 1.1;
+  justify-self: start;
 }
 
 #links {
-  display: flex;
-  justify-content: flex-end;
+  font-size: 30px;
 }
 
 #hand-wave {

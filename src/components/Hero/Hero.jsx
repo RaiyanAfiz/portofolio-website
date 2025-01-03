@@ -9,13 +9,20 @@ const Hero = () => {
       </h1>
 
       <h3 id="links">
-        <a>Check out my </a>
-        <a href="https://github.com/RaiyanAfiz/">GitHub</a>
-        <a> profile. </a>
-        <a>You can also find me on </a>
-        <a href="https://www.linkedin.com/in/raiyanafiz/">LinkedIn</a>
-        <a>.</a>
-        <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a href="https://github.com/RaiyanAfiz/" target="_blank">
+          <img
+            id="project-picture"
+            src={"src/assets/github.svg"}
+            alt="GitHub Profile"
+          ></img>
+        </a>
+        <a href="https://www.linkedin.com/in/raiyanafiz/" target="_blank">
+          <img
+            id="project-picture"
+            src={"src/assets/linkedin.svg"}
+            alt="LinkedIn Profile"
+          ></img>
+        </a>
       </h3>
     </div>
   );
