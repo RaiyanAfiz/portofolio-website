@@ -7,22 +7,29 @@ const Hero = () => {
         <h1>
           <span id="hand-wave">👋</span> Hello, I am Raiyan...
         </h1>
-        <p>
-          A Computer Science graduate passionate about technology, data, and
-          problem-solving.
-          <br />
-          <br />
-          My 16 months as a Business Intelligence Analyst taught me to uncover
-          and communicate stories hidden in data. I thrive on creating solutions
-          that make information accessible and actionable.
-          <br />
-          <br />
-          Beyond work, I’m an avid learner who dives into new software
-          development projects to sharpen my skills and explore emerging tech.
-          <br />
-          <br />
-          For me, challenges aren’t obstacles—they’re opportunities to grow.
-        </p>
+        <div id="description">
+          <p>
+            A Computer Science graduate passionate about technology, data, and
+            problem-solving.
+            <br />
+            <br />
+            My 16 months as a Business Intelligence Analyst taught me to uncover
+            and communicate stories hidden in data. I thrive on creating
+            solutions that make information accessible and actionable.
+            <br />
+            <br />
+            Beyond work, I’m an avid learner who dives into new projects to
+            sharpen my skills and explore emerging tech.
+            <br />
+            <br />
+            For me, challenges aren’t obstacles—they’re opportunities to grow.
+          </p>
+          <img
+            id="myPicture"
+            src="src\assets\myPic.jpg"
+            alt="Image of portfolio owner"
+          />
+        </div>
       </div>
 
       <p id="links">
