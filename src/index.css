@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -17,19 +17,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-/* #intro-name {
-  text-align: center;
-  font-style: italic;
-  font-size: 550%;
-} */
-
-/* #intro-links {
-  text-align: center;
-  font-style: italic;
-  font-size: 200%;
-} */
-
 #about-title {
   text-align: center;
   padding: 5px;
@@ -49,4 +36,4 @@ code {
   text-align: center;
   padding: 5px;
   font-size: 250%;
-}
+} */
