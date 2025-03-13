@@ -1,19 +1,23 @@
-.projectsCards {
+#project-section-title {
+  padding-left: 3%;
+}
+
+.projects {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  row-gap: 20px;
+  row-gap: 25px;
 }
 
-.project {
+.projectCard {
   width: 500px;
   border: 2px solid darkgray;
   border-radius: 8px;
   transition: 0.3s;
 }
 
-.project:hover {
+.projectCard:hover {
   background-color: darkcyan;
   color: white;
 }

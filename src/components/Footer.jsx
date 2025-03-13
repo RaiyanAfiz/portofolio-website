@@ -1,4 +1,4 @@
-const Contact = () => {
+const Footer = () => {
   return (
     <div>
       <h1 id="contact-style">
@@ -9,4 +9,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Footer;

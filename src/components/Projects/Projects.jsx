@@ -5,8 +5,8 @@ import "./Projects.css";
 const Projects = () => {
   return (
     <div>
-      <h1>My Projects</h1>
-      <div className="projectsCards">
+      <h1 id="project-section-title">My Projects</h1>
+      <div className="projects">
         {myProjects.reverse().map((project) => (
           <ProjectCards projectProp={project} />
         ))}

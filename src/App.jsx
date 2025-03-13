@@ -1,5 +1,5 @@
 import About from "./components/About/About";
-import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Projects from "./components/Projects/Projects";
 
 const App = () => {
@@ -7,7 +7,7 @@ const App = () => {
     <div>
       <About />
       <Projects />
-      <Contact />
+      <Footer />
     </div>
   );
 };

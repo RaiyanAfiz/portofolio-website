@@ -1,6 +1,6 @@
 const ProjectCards = ({ projectProp }) => {
   return (
-    <div className="project">
+    <div className="projectCard">
       <h1 id="p-title">
         <a href={projectProp.link}>{projectProp.title}</a>
       </h1>

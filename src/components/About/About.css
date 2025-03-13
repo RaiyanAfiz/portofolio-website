@@ -1,6 +1,6 @@
 .hero {
   display: flex;
-  padding: 50px;
+  padding: 2.75%;
   flex-direction: column;
 }
 
