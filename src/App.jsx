@@ -1,5 +1,5 @@
 import About from "./components/About/About";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 import Projects from "./components/Projects/Projects";
 
 const App = () => {
