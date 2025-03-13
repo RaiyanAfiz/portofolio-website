@@ -2,7 +2,9 @@ const ProjectCards = ({ projectProp }) => {
   return (
     <div className="projectCard">
       <h1 id="p-title">
-        <a href={projectProp.link}>{projectProp.title}</a>
+        <a href={projectProp.link} target="_blank">
+          {projectProp.title}
+        </a>
       </h1>
 
       <img
