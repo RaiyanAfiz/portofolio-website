@@ -29,6 +29,23 @@
   margin-right: 2%;
 }
 
+/* 1037px */
+@media only screen and (max-width: 1055px) {
+  #description {
+    flex-direction: column;
+    align-items: center;
+  }
+  #myPicture {
+    max-width: 40%;
+    height: auto;
+  }
+
+  #description > p {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   #description {
     flex-direction: column;
