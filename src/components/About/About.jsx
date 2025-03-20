@@ -1,4 +1,9 @@
 import "./About.css";
+import myPic from "../../assets/myPic.jpg";
+import linkedin from "../../assets/linkedin.svg";
+import github from "../../assets/github.svg";
+import resume from "../../assets/resume.svg";
+import resumePDF from "../../assets/Resume.pdf";
 
 const Hero = () => {
   return (
@@ -21,23 +26,19 @@ const Hero = () => {
             <br />
             For me, challenges aren’t obstacles—they’re opportunities to grow.
           </p>
-          <img
-            id="myPicture"
-            src="src\assets\myPic.jpg"
-            alt="Image of portfolio owner"
-          />
+          <img id="myPicture" src={myPic} alt="Image of portfolio owner" />
         </div>
       </div>
 
       <p id="links">
         <a href="https://github.com/RaiyanAfiz/" target="_blank">
-          <img src="src\assets\github.svg" alt="GitHub Profile Link" />
+          <img src={github} alt="GitHub Profile Link" />
         </a>
         <a href="https://www.linkedin.com/in/raiyanafiz/" target="_blank">
-          <img src="src\assets\linkedin.svg" alt="LinkedIn Profile Link" />
+          <img src={linkedin} alt="LinkedIn Profile Link" />
         </a>
-        <a href="src\assets\Resume.pdf" target="_blank">
-          <img src="src\assets\resume.svg" alt="View Resume PDF" />
+        <a href={resumePDF} target="_blank">
+          <img src={resume} alt="View Resume PDF" />
         </a>
       </p>
     </div>

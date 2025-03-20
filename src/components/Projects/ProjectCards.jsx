@@ -1,3 +1,11 @@
+function getImgURL(fileName) {
+  const imgUrl = new URL(
+    `../../assets/project-img/${fileName}`,
+    import.meta.url
+  ).href;
+  return imgUrl;
+}
+
 const ProjectCards = ({ projectProp }) => {
   return (
     <div className="projectCard">
@@ -9,7 +17,7 @@ const ProjectCards = ({ projectProp }) => {
 
       <img
         id="p-img"
-        src={"src/assets/project-img/" + projectProp.picture}
+        src={getImgURL(projectProp.picture)}
         alt={projectProp.pictureAlt}
       ></img>
 
