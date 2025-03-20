@@ -13,13 +13,10 @@ const Hero = () => {
             problem-solving.
             <br />
             <br />
-            My 16 months as a Business Intelligence Analyst taught me to uncover
-            and communicate stories hidden in data. I thrive on creating
-            solutions that make information accessible and actionable.
-            <br />
-            <br />
-            Beyond work, I’m an avid learner who dives into new projects to
-            sharpen my skills and explore emerging tech.
+            I enjoy building fun apps, transforming raw data into meaningful
+            insights, and finding innovative solutions to my problems. Whether
+            it’s analyzing trends, developing applications, or automating tasks,
+            I am always exploring new way to develop my self.
             <br />
             <br />
             For me, challenges aren’t obstacles—they’re opportunities to grow.

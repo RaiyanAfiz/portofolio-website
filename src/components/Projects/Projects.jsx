@@ -7,8 +7,8 @@ const Projects = () => {
     <div>
       <h1 id="project-section-title">My Projects</h1>
       <div className="projects">
-        {myProjects.reverse().map((project) => (
-          <ProjectCards projectProp={project} />
+        {myProjects.toReversed().map((project) => (
+          <ProjectCards projectProp={project} key={project.id} />
         ))}
       </div>
     </div>
