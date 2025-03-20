@@ -1,0 +1,15 @@
+#footer-black-space {
+  padding: 1%;
+}
+
+#footer-color {
+  background-color: darkcyan;
+  padding: 1px;
+  text-align: end;
+}
+
+#footer-color > p {
+  color: white;
+  padding-right: 2%;
+  font-size: 120%;
+}

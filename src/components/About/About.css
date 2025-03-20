@@ -1,0 +1,115 @@
+.hero {
+  display: flex;
+  padding: 2.75%;
+  flex-direction: column;
+}
+
+#name {
+  animation-name: fade-in-animate;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+}
+
+#description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#myPicture {
+  max-width: 30%;
+  height: auto;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#description > p {
+  font-size: 140%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+/* 1037px */
+@media only screen and (max-width: 1055px) {
+  #description {
+    flex-direction: column;
+    align-items: center;
+  }
+  #myPicture {
+    max-width: 50%;
+    height: auto;
+  }
+
+  #description > p {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #description {
+    flex-direction: column;
+    align-items: center;
+  }
+  #myPicture {
+    max-width: 70%;
+    height: auto;
+  }
+
+  #description > p {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+
+#links {
+  display: flex;
+  height: auto;
+  width: 300px;
+  justify-content: space-around;
+}
+
+#hand-wave {
+  animation-name: hand-wave-animate;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes hand-wave-animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-8deg);
+  }
+  50% {
+    transform: rotate(14deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes fade-in-animate {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

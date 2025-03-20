@@ -2,7 +2,7 @@ export const myProjects = [
   {
     id: 0,
     title: "Java Tic-Tac-Toe",
-    picture: "/pictures/JavaTicTacToe.JPG",
+    picture: "JavaTicTacToe.JPG",
     pictureAlt: "A picture of the game in action.",
     description:
       "A CLI Java based tic-tac-toe game. The opponent AI makes decisions based on game state.",
@@ -13,10 +13,10 @@ export const myProjects = [
   {
     id: 1,
     title: "Bookstore Website",
-    picture: "pictures/BookStoreWebsite.JPG",
+    picture: "BookStoreWebsite.JPG",
     pictureAlt: "A picture of the website",
     description:
-      "A very simple website that uses HTML and CSS for the front end, and PHP for the backend. This mimics very simple bookstore and reading platform. Uses copyright free books.",
+      "A bookstore and reading platform. Created using HTML & CSS for the front end and uses PHP for the backend. Uses copyright free books.",
     skills: ["PHP", "HTML", "CSS"],
     link: "https://github.com/RaiyanAfiz/Website",
   },
@@ -24,10 +24,10 @@ export const myProjects = [
   {
     id: 2,
     title: "City of Windsor - Open Data",
-    picture: "pictures/OpenDataWebsite.JPG",
+    picture: "OpenDataWebsite.JPG",
     pictureAlt: "A picture of the website",
     description:
-      "A website that takes data from the city of Windsor, which are usually in CSV or Excel formats, and displays the information on the website. The data in the website is in a JSON format.",
+      "A website used to display data collected by the City of Windsor. ",
     skills: ["HTML", "CSS", "JSON"],
     link: "https://github.com/sell50/City-of-Windsor-Open-Data",
   },
@@ -35,10 +35,10 @@ export const myProjects = [
   {
     id: 3,
     title: "CTF - Four Player Co-Op",
-    picture: "pictures/CTF-Game.JPG",
+    picture: "CTF-Game.JPG",
     pictureAlt: "A picture of the game in action",
     description:
-      "A Unity3D game featuring four player capture the flag game mode.",
+      "A Unity3D fantasy game. The main game mode is 4 play capture the flag.",
     skills: ["Unity", "C#"],
     link: "https://github.com/sell50/GameDesignCourse",
   },
@@ -46,20 +46,20 @@ export const myProjects = [
   {
     id: 4,
     title: "Mental Health Android App",
-    picture: "pictures/MentalHealthApp.JPG",
+    picture: "MentalHealthApp.JPG",
     pictureAlt: "A picture of the app in action.",
-    description:
-      "An android app focusing on mental health. It uses RoomDB to track journal entries.",
+    description: "An android app focusing on improving mental health.",
     skills: ["Android Studio", "Java", "SQLite", "RoomDB"],
     link: "https://github.com/RaiyanAfiz/Mobile-Application-Development-Project",
   },
 
   {
     id: 5,
-    title: "Toronto Open Data",
-    picture: "pictures/TorontoOpenData.JPG",
+    title: "Toronto Open Data - Data Engineering Project",
+    picture: "TorontoOpenData.JPG",
     pictureAlt: "Database Table",
-    description: "A project focusing on ELT using Python and Pandas library",
+    description:
+      "Creating an ELT pipeline to connect data from the website portal to a local database.",
     skills: ["Python", "MySQL", "Pandas"],
     link: "https://github.com/RaiyanAfiz/TorontoOpenData",
   },
